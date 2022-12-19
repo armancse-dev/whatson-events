@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-export const SITE_URL = 'https://demo.vercel.events';
+export const SITE_URL = 'https://awards.whatson.academy';
 export const SITE_ORIGIN = process.env.NEXT_PUBLIC_SITE_ORIGIN || new URL(SITE_URL).origin;
 export const TWITTER_USER_NAME = 'vercel';
-export const BRAND_NAME = 'ACME';
-export const SITE_NAME_MULTILINE = ['ACME', 'Conf'];
-export const SITE_NAME = 'ACME Conf';
+export const BRAND_NAME = 'WhatsOn';
+export const SITE_NAME_MULTILINE = ['WhatsOn', 'Awards'];
+export const SITE_NAME = 'WhatsOn Awards';
 export const META_DESCRIPTION =
-  'This is an open source demo that Next.js developers can clone, deploy, and fully customize for events. Created through collaboration of marketers, designers, and developers at Vercel.';
+  'WhatsOn Award Party';
 export const SITE_DESCRIPTION =
-  'An interactive online experience by the community, free for everyone.';
-export const DATE = '01 January 2022';
-export const SHORT_DATE = 'Jan 1 - 9:00am PST';
-export const FULL_DATE = 'Jan 1st 9am Pacific Time (GMT-7)';
+  'An interactiv party, free for everyone.';
+export const DATE = '23 December 2022';
+export const SHORT_DATE = 'Dec 23 - 5:30pm';
+export const FULL_DATE = 'Dec 23rd 5:30pm (GMT+6)';
 export const TWEET_TEXT = META_DESCRIPTION;
 export const COOKIE = 'user-id';
 
