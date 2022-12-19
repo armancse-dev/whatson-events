@@ -16,7 +16,7 @@
 
 export const SITE_URL = 'https://awards.whatson.academy';
 export const SITE_ORIGIN = process.env.NEXT_PUBLIC_SITE_ORIGIN || new URL(SITE_URL).origin;
-export const TWITTER_USER_NAME = 'vercel';
+export const TWITTER_USER_NAME = 'WhatsOn_UK';
 export const BRAND_NAME = 'WhatsOn';
 export const SITE_NAME_MULTILINE = ['WhatsOn', 'Awards'];
 export const SITE_NAME = 'WhatsOn Awards';
